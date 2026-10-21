@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI search and answer engines are welcome to read this site
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://www.armorfiberglass.com/sitemap.xml
