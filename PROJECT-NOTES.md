@@ -2,6 +2,13 @@
 
 Built October 20, 2026 for Foundational Marketing Hub. A single-page static site with no framework and no build step. It replaces the current IONOS MyWebsite site at armorfiberglass.com. This is a local preview and a ZIP, not a live website.
 
+## Preview link
+
+- Repo: https://github.com/First-chronicles/Armor-Fiber-Glass (`main` holds this whole folder)
+- Shareable preview on GitHub Pages: https://first-chronicles.github.io/Armor-Fiber-Glass/ (served from the `gh-pages` branch, which holds only the `website/` folder)
+- To update the preview after editing `website/`, commit to `main`, then run `git subtree split --prefix website -b gh-pages` and `git push origin gh-pages` (add `-f` to the push if the split rewrites the branch).
+- The canonical tag points to https://www.armorfiberglass.com/, so search engines treat the Pages copy as a duplicate of the real domain, not a competing site.
+
 ## Files
 
 - `armor-fiberglass-website.zip`: the `website/` folder, ready to upload. Upload the folder's contents to the web root so `index.html` sits at the top level. Rebuild the ZIP after any edit.
